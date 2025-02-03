@@ -209,7 +209,7 @@ tanzu services type list
 tanzu service create MySQLInstance/spring-music-db
 
 #bind the db to the spring-music app
-tanzu service bind MySQLInstance/spring-music-db ContinerApp/spring-music 
+tanzu service bind MySQLInstance/spring-music-db ContainerApp/spring-music 
 
 
 #show that the app is bound to the database (if deploying, discussing that it's automatically restarting)
